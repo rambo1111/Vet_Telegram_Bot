@@ -14,7 +14,7 @@ def home():
     This is the main endpoint of the application.
     """
     # The target URL for redirection
-    redirect_url = "https://github.com/rambo1111/Sous-Chef-AI_Telegram-Bot"
+    redirect_url = "https://github.com/rambo1111/Vet_Telegram_Bot/"
     logging.info(f"Redirecting user to {redirect_url}")
     # Perform the redirection
     return redirect(redirect_url)
