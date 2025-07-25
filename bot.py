@@ -11,10 +11,8 @@ from telegram.constants import ChatAction
 from telegram.error import BadRequest
 
 # --- Configuration ---
-# TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
-TELEGRAM_BOT_TOKEN = "8295030176:AAEh8s-qlfynYFQ0zM6NuatltTXnK4bsneI"
-# GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
-GEMINI_API_KEY = "AIzaSyB8nmM8gR0qJduGY_350q8Wf_Lt74Goks0"
+TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 
 # Set up basic logging to monitor the bot's activity and errors.
 logging.basicConfig(
